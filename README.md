@@ -1,13 +1,16 @@
-## Problem 
-Implement factory design pattern using Pet as the factory interface.  The interface implements two methods: makeSound() and play().
+## Programming Challenge
 
-Dog and Cat are concrete objects that implements Pet interface.
+Design a system that uses a special remote control to send commands to different devices. The key idea is to create a way for the remote control to control multiple devices without knowing the specifics of each device. Specifically:
 
-PetRecord holds attributes such as petId, petName, and Pet.
+Create a remote control that can send commands like "Power On" and "Power Off."
 
-Clinic would be the client object.
+Implement separate commands for "Turn On" and "Turn Off."
 
-Refer to the UML Class Diagram
+Develop a system where devices (e.g., TV, stereo, lights) can respond to these commands. Each device should have its unique behavior for turning on and off.
+
+Ensure that the remote control can send these commands to any device without knowing how each device works internally.
+
+Your challenge is to apply a design pattern that allows this remote control to be flexible and extensible, enabling it to control various devices effortlessly. This should be achieved without the remote control having to understand the specific details of how each device operates.
 
 ## Class Diagram
-![image](https://github.com/JerryEsperanza/factoryPattern/assets/142370600/0506f134-a5f6-4d98-a817-cd6f7a8466c7)
+![image](https://github.com/JerryEsperanza/commandpattern/assets/142370600/803de011-db55-482b-8008-b0cf8c07bd1e)
