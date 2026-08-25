@@ -12,7 +12,7 @@ Your challenge is to apply a design pattern that provides a flexible and scalabl
 
 In your solution you must provide the following in your Github link account:
 
-  Problem statement (description of the problem. Just copy what is stated here.
+  Problem statement (description of the problem). Just copy what is stated here.
   UML Class Diagram
   Uploaded java codes for the solution.
 Upload your GitHub Solution link here.
