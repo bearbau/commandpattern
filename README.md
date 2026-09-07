@@ -18,4 +18,4 @@ In your solution you must provide the following in your Github link account:
 Upload your GitHub Solution link here.
 
 ## Class Diagram
-![image](https://github.com/JerryEsperanza/commandpattern/assets/142370600/803de011-db55-482b-8008-b0cf8c07bd1e)
+![image](https://f2.toyhou.se/file/f2-toyhou-se/images/127300958_jjOaq275aXoCorp.png)
