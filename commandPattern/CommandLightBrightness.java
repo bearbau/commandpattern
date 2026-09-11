@@ -1,8 +1,8 @@
 public class CommandLightBrightness implements Command {
-    private final Light light;
+    private final Lights light;
     private final int level;
 
-    public CommandLightBrightness(Light light, int level) {
+    public CommandLightBrightness(Lights light, int level) {
         this.light = light;
         this.level = level;
     }

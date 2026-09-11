@@ -1,9 +1,7 @@
-package commandPattern;
-
 public class CommandLightOff implements Command {
-    private final Light light;
+    private final Lights light;
 
-    public CommandLightOff(Light light) {
+    public CommandLightOff(Lights light) {
         this.light = light;
     }
 

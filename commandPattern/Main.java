@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        Light livingRoomLight = new Light("Living Room");
+        Lights livingRoomLight = new Lights("Living Room");
         Thermostat thermostat = new Thermostat();
         MusicPlayer musicPlayer = new MusicPlayer();
 
@@ -15,7 +15,7 @@ public class Main {
         Command playLofi = new CommandMusicPlay(musicPlayer, "Lofi music");
         Command quieter = new CommandVolumeDown(musicPlayer);
 
-        RemoteControlHub hub = new RemoteControl();
+        RemoteControl hub = new RemoteControl();
         hub.setCommand("light-on", lightOn);
         hub.setCommand("light-off", lightOff);
         hub.setCommand("light-dim", dimLight);
